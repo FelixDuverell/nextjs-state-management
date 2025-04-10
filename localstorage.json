@@ -1,0 +1,126 @@
+[
+  {
+    "city": "Helsingborg",
+    "data": {
+      "main": {
+        "temp": 15,
+        "humidity": 80,
+        "pressure": 1012
+      },
+      "weather": [
+        {
+          "description": "Clear sky"
+        }
+      ],
+      "wind": {
+        "speed": 3.5
+      },
+      "sys": {
+        "sunrise": 1616498765,
+        "sunset": 1616540100
+      },
+      "coord": {
+        "lon": 12.6955,
+        "lat": 56.0465
+      },
+      "visibility": 10000,
+      "clouds": {
+        "all": 0
+      }
+    },
+    "timestamp": 1616498765000
+  },
+  {
+    "city": "Malmö",
+    "data": {
+      "main": {
+        "temp": 17,
+        "humidity": 75,
+        "pressure": 1010
+      },
+      "weather": [
+        {
+          "description": "Partly cloudy"
+        }
+      ],
+      "wind": {
+        "speed": 4.0
+      },
+      "sys": {
+        "sunrise": 1616500000,
+        "sunset": 1616541300
+      },
+      "coord": {
+        "lon": 13.0038,
+        "lat": 55.605
+      },
+      "visibility": 9000,
+      "clouds": {
+        "all": 40
+      }
+    },
+    "timestamp": 1616498765000
+  },
+  {
+    "city": "Lund",
+    "data": {
+      "main": {
+        "temp": 16,
+        "humidity": 78,
+        "pressure": 1011
+      },
+      "weather": [
+        {
+          "description": "Mostly sunny"
+        }
+      ],
+      "wind": {
+        "speed": 3.0
+      },
+      "sys": {
+        "sunrise": 1616500500,
+        "sunset": 1616541500
+      },
+      "coord": {
+        "lon": 13.191,
+        "lat": 55.7047
+      },
+      "visibility": 9500,
+      "clouds": {
+        "all": 10
+      }
+    },
+    "timestamp": 1616498765000
+  },
+  {
+    "city": "Ystad",
+    "data": {
+      "main": {
+        "temp": 14,
+        "humidity": 82,
+        "pressure": 1013
+      },
+      "weather": [
+        {
+          "description": "Overcast clouds"
+        }
+      ],
+      "wind": {
+        "speed": 2.8
+      },
+      "sys": {
+        "sunrise": 1616500800,
+        "sunset": 1616541600
+      },
+      "coord": {
+        "lon": 13.8204,
+        "lat": 55.4295
+      },
+      "visibility": 9800,
+      "clouds": {
+        "all": 90
+      }
+    },
+    "timestamp": 1616498765000
+  }
+]
