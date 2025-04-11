@@ -71,7 +71,7 @@ const HomeContent = () => {
         timestamp: Date.now(),
       })
 
-      // Ta bort gamla data om vi har mer än 7 poster
+      // Ta bort gamla data om det är mer än 7 poster
       if (storedData.length > 7) {
         storedData.pop()
       }
@@ -110,7 +110,7 @@ const HomeContent = () => {
         >
           {isOpen ? "Close" : "Open"} devtools
         </Button>
-        <Divider />
+        <Divider> </Divider>
         <Box>
           <select
             name="menu"
