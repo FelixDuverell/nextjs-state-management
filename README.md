@@ -6,7 +6,9 @@ https://openweathermap.org/
 
 Make an account and use the key you recieve.
 
-Insert it in the .env.local file
+Insert it in the .env.local file example below
+
+NEXT_PUBLIC_API_KEY="Your key"
 
 Make sure you're in the right directory, then run the development server:
 
