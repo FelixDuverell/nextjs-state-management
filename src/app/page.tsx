@@ -1,3 +1,5 @@
+// https://github.com/FelixDuverell/nextjs-state-management
+
 "use client"
 import * as React from "react"
 import { styled } from "@mui/material/styles"
@@ -52,7 +54,7 @@ const HomeContent = () => {
     queryKey: ["weather", currentCity],
     queryFn: async () => {
       const res = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${currentCity},SE&appid=d0c2e36ece03dffea8c83426c54b0f26&units=metric`
+        `https://api.openweathermap.org/data/2.5/weather?q=${currentCity},SE&appid=${process.env.NEXT_PUBLIC_API_KEY}&units=metric`
       )
       if (!res.ok) {
         throw new Error("Failed to fetch data")
