@@ -110,7 +110,7 @@ const HomeContent = () => {
         >
           {isOpen ? "Close" : "Open"} devtools
         </Button>
-        <Divider> </Divider>
+        <Divider />
         <Box>
           <select
             name="menu"
